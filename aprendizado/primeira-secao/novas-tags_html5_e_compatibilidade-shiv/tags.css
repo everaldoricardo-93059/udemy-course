@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    text-align: justify;
+}
+
+article {
+    background-color: orange;
+    padding: 10px;
+}
+
+section {
+    border: 1px dotted #fff;
+    padding: 5px;
+}
+
+time {
+    background-color: #fff;
+    padding: 1px;
+}
+
+aside {
+    background-color: aquamarine;
+    color: rgb(199, 117, 117);
+    padding: 10px;
+}

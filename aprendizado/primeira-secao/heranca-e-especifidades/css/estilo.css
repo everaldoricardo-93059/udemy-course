@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*****Herança e Especifidade*/
+
+* {
+    border: 1px solid red;
+}
+
+body {
+    color: red;
+}
+
+/*Obs: Sempre que dois seletores iguais são usados, 
+o último é que vale.*/
+
+/* Obs: se um seletor for mais específico que outro a regra mais 
+específica será aplicada.*/
+
+.pagina p {
+    
+    color: blue ! important; /*Obs: use esta regra com cautela*/
+}
+
+.pagina p {
+
+    color: red;
+}
+
+h2 {
+    color: green; /* Exemplo de seletor específico. (03)*/
+}
+
+h2.orange {
+    color: orange;/*(02)*/
+}
+
+h2#tomato {
+    color: tomato; /* Obs: o id é mais específico que a classe (01)*/
+}

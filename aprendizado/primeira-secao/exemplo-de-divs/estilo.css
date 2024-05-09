@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+div#topo {
+    background-color: rgb(131, 255, 127);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+div#topo > img {
+    margin-top: 50px;
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 100px;
+}
+
+div#conteudo {
+    background-color: brown;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+
+div.produto {
+    background-color: gray;
+    padding: 5px;
+    margin: 10px;
+}
+
+div#rodape {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    font-weight: bold;
+}
+/* span é umm elemento do tipo inline*/
+span#assinatura {
+    background-color: rgb(67, 67, 167);
+}
+
+span#azul {
+    background-color: pink;
+    color: black;
+}

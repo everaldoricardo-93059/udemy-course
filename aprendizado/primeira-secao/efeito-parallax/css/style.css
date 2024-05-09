@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body,html {
+    margin: 0;
+    font: 16px "lato", sans-serif;
+    color: #777;
+    height: 100%; /*Sempre configurar o height em 100% 
+    para atingir o objetivo do parallax*/
+    overflow-x: hidden;
+}
+
+
+div.conteudo {
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* EFEITO PARALLAX*/
+
+.caixa1, .caixa2, .caixa3, .caixa4{ /*Formatação padrão*/
+    position: relative;
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ 
+}
+
+.conteudo {
+    height: 595px;
+}
+
+.caixa1 {
+    background-image: url(../imagens/imagem1.jpg);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    background-color: #111;
+    color: #fff;
+    padding: 12px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.caixa2 {
+    background-image: url(../imagens/imagem2.jpg);
+}
+
+.caixa3 {
+    background-image: url(../imagens/imagem3.jpg);
+}
+
+.caixa4 {
+    background-image: url(../imagens/imagem4.jpg);
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(17, 17, 17, 0.425);
+    color: #111;
+    width: 99%;
+    height: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: aqua;
+}

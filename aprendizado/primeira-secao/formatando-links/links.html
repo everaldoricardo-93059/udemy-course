@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatando links</title>
+    <style type="text/css">
+        a {
+            color: orange;
+            text-decoration: none;
+        }
+        /*Obs: Sempre mantter esta ordem de formatação*/
+        /* Formatação para links não visitados*/
+
+        a:link {
+            color: #adc01f;
+        }
+
+        /* Formatação para links visitados*/
+
+        a:visited {
+            color: #c0c0c0;
+        }
+
+        /*Links Hover, passa o cursor sobre o link*/
+
+        a:hover {
+            background-color: yellow;
+            color: red;
+        }
+
+        /* Links Ativos, quando clicados*/
+        a:active {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com.br">Google</a><br>
+    <a href="https://www.tecmundo.com.br">Tec Mundo</a><br>
+    <a href="https://www.megacurioso.com.br">Mega Curioso</a><br>
+    <a href="https://www.youtube.com.br">Youtube</a><br>
+</body>
+</html>

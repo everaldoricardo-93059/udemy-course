@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos flutuantes</title>
+
+    <style type="text/css">
+
+        div#principal {
+            background-color: darksalmon;
+            border: 5px solid black;
+        }
+
+
+        div.conteudo1 {
+                   width: 150px;
+                   height: 250px;
+                   background-color: yellow;
+                   border: 2px solid green;
+                   margin: 10px;
+                   float: right;
+        
+                }
+        
+                div.conteudo {
+                   width: 150px;
+                   height: 150px;
+                   background-color: brown;
+                   border: 2px solid blue;
+                   margin: 10px;
+                   float: left;
+        
+                }
+
+        p.clear {
+            clear: both;
+        }         
+        
+            </style>
+</head>
+<body>
+  <div id="principal">
+      
+      <div class="conteudo1">
+          conteudo 01
+      </div>
+      <div class="conteudo">
+          conteudo 02
+      </div>
+      <div class="conteudo">
+          conteudo 03
+      </div>
+      
+      <p class="clear">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, provident eaque vero illo quidem ad eligendi necessitatibus sint molestiae, accusamus, eveniet nulla nam dicta iure consequuntur eos cumque. Ducimus, illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quaerat adipisci libero consequuntur impedit laborum dolore recusandae accusamus culpa repellendus pariatur, nam explicabo minus facilis ipsa non! Esse, vel non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam tempore asperiores eum, nesciunt, magni voluptatibus laboriosam pariatur alias, doloremque ea culpa! Aperiam ratione possimus fuga. Magnam esse libero sint praesentium?
+        <!--Obs: Usei um parágrafo mas também poderia ser 
+        usada uma div-->
+      </p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos(static, relative, absolute e fixed)</title>
+    <style type="text/css">
+
+        
+body {
+            background: #007fc7;
+        }
+
+        div#container {
+            background: #FFF;
+            width: 800px;
+            margin: 10px auto;/* Definindo a margin como auto
+            o container se adaptará nos cantos*/
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+
+            }
+
+            h1 {
+                font-family: Arial, Helvetica, sans-serif;
+                /* static é o posicionamento padrão dos elementos*/
+
+            }
+
+            p {
+                width: 300px;
+            }
+
+              /*Propriedades para movimentar o elemento na página:border: top, right, left e bottom;*/
+
+            .absolute {
+                /* A propriedade absolute tira o elemento do
+                do fluxo normal do documento se posicionando 
+                em relacão ao container onde está inserido*/
+                border: 1px solid green;
+                color: green;
+                position: absolute;
+                background: #f2f2f2;
+                top: 80px;
+                right: 20px;
+            }
+
+            
+            .fixed {
+                    /* O posicionamento fixed e alinhado em relação a 
+                    tela, a janela do navegador(viewport*/
+                border: 1px solid blue;
+                color: blue;
+                position: fixed;
+                background: #f2f2f2;
+                top: 0px;
+                left: 0px;
+           
+            }
+
+            .relative {
+                /* O posicionamento relativo tem como base do alinhamento
+                a posição inicial do elemento*/
+                border: 1px solid red;
+                color: red;
+                position: relative;
+                top: 30px;
+                left: 80px;
+            }
+    </style>
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <h1>Posicionamentos</h1>
+
+        <p class="fixed"> P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+
+        <p class="relative"> P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenet ur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+
+        
+        <p class="absolute"> P3  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+
+        
+        <p> P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+        
+        <p> P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+        
+        <p> P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+        
+        <p> P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+
+               
+        <p> P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+        
+        <p> P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+        
+        <p> P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+        
+        <p> P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+
+
+        <a href="relative.html">Pagina relative</a>
+    </div>
+    
+</body>
+</html>

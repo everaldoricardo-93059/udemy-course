@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*Estilizando Formulários*/
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+}
+div#formulario {
+    width: 60%;
+    margin: auto;
+}
+
+fieldset {
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    margin: 1em 0px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    width: 70%;
+    margin-bottom: 5px;
+}
+
+.radio {
+    margin-right: 260px;
+}
+
+fieldset [type="radio"] {
+    width: auto;
+    margin-right: 13px;
+    margin-bottom: 10px;
+}

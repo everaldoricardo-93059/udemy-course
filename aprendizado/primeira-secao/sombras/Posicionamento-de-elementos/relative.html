@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos(Static, relative, absolute, fixed)</title>
+    <style type="text/css">
+
+        body {
+            background: #007fc7;
+        }
+
+        div#container {
+            background: #FFF;
+            width: 800px;
+            margin: 10px auto;/* Definindo a margin como auto
+            o container se adaptará nos cantos*/
+            padding: 20px;
+            border-radius: 10px;
+
+            }
+
+            h1 {
+                /* static é o posicionamento padrão dos elementos*/
+
+            }
+
+            p {
+                width: 300px;
+            }
+
+            .relative {
+                border: 1px solid red;
+                position: relative;
+                /*Propriedades para movimentar o elento na página:border: top, right, left e bottom;*/
+                top: 30px;
+                left: 80px;
+            }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Posicionamentos</h1>
+
+        <p> P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+
+        <p class="relative"> P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenet ur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+
+        <p> P3  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam sunt, vitae praesentium omnis accusamus ipsam, accusantium illo animi blanditiis odio quisquam placeat? Nostrum, molestias amet ea suscipit consectetur blanditiis.</p>
+
+        <a href="absolute.html">Pagina absolute</a>
+    </div>
+    
+</body>
+</html>

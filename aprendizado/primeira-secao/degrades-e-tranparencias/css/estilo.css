@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+div#degrade {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 10px;
+    background: #b9c941 url(../imagens/camera.png) no-repeat
+    ;
+}
+
+div#degrade h1 {
+    background: rgb(255, 255, 255, 0.3);
+    /*O último valor define ea opacidade*/
+}
+
+div#opacidade {
+    box-sizing: border-box;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: linear-gradient(96deg , red, green, yellow)
+    /*Primeiro valor define o grau de rotação ou o sentido*/
+    ;
+}
+
+div#opacidade h1 {
+    background: rgb(255, 255, 255, 0);
+    /*O último valor define ea opacidade*/
+}
+
+div#radial {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px;
+    background: radial-gradient( red, green)
+    /*Primeiro valor define o grau de rotação ou o sentido*/
+    ;
+}
+
+div#radial h1 {
+    background: rgb(255, 255, 255, 0);
+    /*O último valor define ea opacidade*/
+}

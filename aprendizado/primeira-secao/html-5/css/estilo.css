@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    border: 3px solid red;
+    background-color: rgb(182, 146, 146);
+}
+
+
+nav {
+    width: 100%;
+    border: 3px solid rgb(133, 92, 92);
+    background-color: rgb(173, 85, 85);
+}
+
+footer {
+    width: 100%;
+    border: 3px solid rgb(147, 156, 65);
+    background-color: rgb(120, 95, 209);
+}
+
+article {
+    width: 100%;
+    border: 3px dotted rgb(148, 34, 148);
+    background-color: orange;
+}
+
+
+section#primeira {
+    width: 100%;
+    background-color: rgb(145, 82, 82);
+    border: 5px dotted green;
+}
+
+
+section#segunda {
+    background-color: yellowgreen;
+    width: 100%;
+    border: 5px solid rgb(0, 81, 128);
+}
+
+
+span {
+    background-color: #111;
+    color: #fff;
+}
+
+time {
+    color: rgb(199, 27, 56);
+}
+
+aside {
+    background-color: gray;
+}

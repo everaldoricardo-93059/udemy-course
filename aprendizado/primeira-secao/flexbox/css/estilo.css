@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div#conteudo {
+    background-color: #dcdcdc;
+    width: 230;
+    height: 400px;
+    display: flex;
+
+    /*row | row-reverse | columm | columm-reverse*/
+    flex-direction: row;
+
+    /*nowwrap | wrap | wrap-reverse*/
+    flex-wrap: nowrap;
+
+    /*flex-start | flex-end | center | space-between | space-around | space-evenly*/
+    justify-content: space-around;
+
+    /*strech | center | flex-start | flex-end | baseline*/
+    align-items: baseline;
+}
+
+div.item {
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid gray;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos flutuantes</title>
+    <style type="text/css">
+        div.conteudo {
+            display: flex;
+            width: 250px;
+            height: 250px;
+            margin: 10px;
+            background-color: blue;
+            border: 2px solid green;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            float: right;
+        }
+
+        div.conteudo1 {
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            background-color: red;
+            border: 2px solid rgb(128, 119, 0);
+            border-radius: 50%;
+            float: left;
+        }
+    </style>
+</head>
+<body id="flex">
+    <div class="conteudo1">
+       conteudo 01
+    </div>
+    <div class="conteudo">
+       conteudo 02
+    </div>
+    <div class="conteudo">
+        conteudo 03
+    </div>
+    
+</body>
+</html>

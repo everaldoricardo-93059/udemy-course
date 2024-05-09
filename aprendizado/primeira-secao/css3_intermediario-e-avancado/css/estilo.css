@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/************ Seletores Universal ***********/
+
+* {
+    border: 1px solid red;
+}
+
+
+/***********Seletores de Texto************/
+h1 {
+    color: green;
+}
+
+
+/************ Seletor de Classe *********/
+
+.blue {
+    color: blue;
+}
+
+p.blue {
+    color: blue;
+}
+
+/******* Seletor de ID*/
+ 
+#cabecalho {
+    border: 3px solid black;
+}
+
+/***********Seletor de filho**********/
+
+li > a {
+    color: tomato;
+    text-decoration: none;
+}
+
+/********Seletor de descendente*********/
+ span a {
+    color: orange;
+    font-weight: bold;
+ }
+
+ /************ Seletor de irmão adjacente *************/
+ /*obs: seleciona um elemento que é irmão próximo de outro */
+
+ h1 + p {
+    color: rgb(112, 202, 9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration: line-through;
+ }
+
+ /************ Seletor de irmão geral **************/
+ /* Obs: sleciona um elemento que é irmão de outro 
+ embora não precise ser o elemento diretamente pre-
+ cedente*/
+
+ h2 ~ p {
+    color: rgb(159, 163, 24);
+    font-size: 0.6em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: overline;
+ }

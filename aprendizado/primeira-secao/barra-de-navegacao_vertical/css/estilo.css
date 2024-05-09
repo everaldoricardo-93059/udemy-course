@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*Barra de navegação vertical*/
+/*
+ul {
+    list-style-type: none;/* As listas tem por padrão espacos de
+    margin e padding
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    padding: 5px 20px;
+    background: url(../imagens/seta.png) no-repeat left center;
+
+}
+*/
+
+    * {
+    margin: 0px;    
+    padding: 0px;
+    list-style-type: none;
+}
+/*Links são elementos inline*/
+ul li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    width: 200px;
+    height: 40px;
+    background:/*#f7b600*/ url(../imagens/menu.png) no-repeat;
+    background-position: left bottom;
+}
+/*Obs: É importante terr um background definido caso a imagem não 
+carregue*/
+a:hover{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#home #navegacao .home a, #sobre #navegacao .sobre a, #servicos #navegacao .servicos a, #noticias #navegacao .noticias a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}

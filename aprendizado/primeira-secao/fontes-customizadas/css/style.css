@@ -1,0 +1,39 @@
+@charset "UT-8";
+
+@font-face { /*Usando fontes externas*/
+    font-family: "Road Rage";
+    src: url(../fontes/RoadRage.woff);
+}
+
+@font-face { /*Usando fontes externas*/
+    font-family: "Heart";
+    src: url(../fontes/BringHeart.woff);
+}
+
+@font-face { /*Usando fontes externas*/
+    /*Sempre converter para formato Woff*/
+    font-family: "Madelina";
+    src: url(../fontes/MadelinaScript.woff);
+}
+
+@font-face { /*Usando fontes externas*/
+    font-family: "Ancient";
+    src: url(../fontes/Ancient-Medium.woff);
+}
+
+
+h1#road{
+    font-family: "Road Rage";
+}
+
+h1#heart{
+    font-family: "Heart";
+}
+
+h1#madelina{
+    font-family: "Madelina";
+}
+
+h1#ancient {
+    font-family: "Ancient";
+}

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+main {
+    width: 950px;
+    margin: auto;
+}
+
+header {
+    width: 950px;
+    height: 90px;
+    background-color: gray;
+    text-align: center;
+    padding-top: 10px;
+}
+
+section#menu {
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div#menu-esquerdo {
+    background-color: lightgray;
+    width: 160px;
+    height: 160px;
+    padding: 15px;
+}
+
+div#menu-esquerdo li,a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+div#menu-central {
+    width: 400px;
+    margin: auto;
+}
+
+div#menu-direito {
+    background-color: lightgray;
+    width: 160px;
+    height: 280px;
+    text-align: justify;
+    padding: 15px;
+}
+
+footer p {
+    background-color: gray;
+    text-align: center;
+    padding: 5px;
+}

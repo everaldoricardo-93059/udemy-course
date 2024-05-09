@@ -1,0 +1,62 @@
+@charset "UTF-8";
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: blue;
+}
+
+img {
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    h1 {
+        margin: 25px auto;
+        color: blueviolet;
+        width: 300px;
+        background-color: yellow;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1199.98px) {
+
+    h1 {
+        display: none;
+    }
+
+    p {
+        color: aqua;
+    }
+    img {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1201px) {
+
+    h1 {
+        color: chartreuse;
+        font-size: 50px;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    body {
+        background-color: gray;
+    }
+
+}

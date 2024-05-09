@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*Barra de navegação horizontal*/
+
+ul{
+    width: 720px;
+    background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    float: left;
+}
+
+ul li {
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    text-decoration: none;
+    background: url(../imagens/divisor.png) repeat-y ;
+    background-position: left top;/*Obs: apenas para ilustração*/
+    color: #fff;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover {
+    background: #44cade;
+    color: #085662;
+}
+
+#home #navegacao .home a, body#sobre #navegacao .sobre aside {
+    background: #44cade;
+    color: #085662;
+}
